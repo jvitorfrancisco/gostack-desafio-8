@@ -63,3 +63,18 @@ export const ProductPrice = styled.Text`
 `;
 
 export const ProductButton = styled.TouchableOpacity``;
+
+export const ClearButton = styled.TouchableOpacity`
+  margin-top: 50px;
+  margin-bottom: -50px;
+  height: 50px;
+  width: 100%;
+  flex-direction: row;
+  background: red;
+  justify-content: center;
+  align-items: center;
+`;
+
+export const ClearButtonText = styled.Text`
+  font-size: 24px;
+`;
